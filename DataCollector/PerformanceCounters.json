@@ -1,0 +1,24 @@
+﻿{
+    counters: [
+        {
+            Server: "localhost",
+            Category: "MSSQL$SQLEXPRESS:General Statistics",
+            CounterName: "Logical Connections",
+            InstanceName: "",
+            PrettyName: "Database Connections",
+            ValueType: "Raw",
+            CheckFrequency: "0.00:00:02",
+            OutputFile: "c:\\test.txt"
+        },
+        {
+            Server: "localhost",
+            Category: "MSSQL$SQLEXPRESS:SQL Statistics",
+            CounterName: "Batch Requests/sec",
+            InstanceName: "",
+            PrettyName: "Database Requests/sec",
+            ValueType: "NextValue",
+            CheckFrequency: "0.00:00:02",
+            OutputFile: "c:\\test.txt"
+        }
+    ]
+}
